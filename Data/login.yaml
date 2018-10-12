@@ -1,0 +1,32 @@
+BN_test_login_001:
+  username: "13331172859"
+  password: "123456"
+  expect: "lj0918"
+BN_toast_test_login_002:
+  username: "lj0918"
+  password: "123456"
+  expect: "lj0918"
+BN_test_login_003:
+  username: " 13331172859 "
+  password: "123456"
+  expect: "lj0918"
+BN_test_login_004:
+  username: " lj0918 "
+  password: "123456"
+  expect: "lj0918"
+BN_test_login_005:
+  username: "133311828971"
+  password: "123456"
+  toast_expect: "此用户不存在"
+BN_test_login_006:
+  username: "13331172859"
+  password: "12345"
+  toast_expect: "登录密码错误"
+BN_test_login_007:
+  username: "13331172859"
+  password: "1245"
+  toast_expect: "登录密码错误"
+BN_test_login_008:
+  username: "lj99999"
+  password: "123456"
+  toast_expect: "此用户不存在"

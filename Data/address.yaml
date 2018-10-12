@@ -1,0 +1,27 @@
+new:
+  BN_test_address_001:
+    receipt_name: "张三"
+    phone: "13364758901"
+    province: "北京市"
+    city: "北京市"
+    region: "海淀区"
+    detail_addr: "中关村软件园"
+    post_code: "123456"
+  BN_test_address_002:
+    receipt_name: "李四"
+    phone: "12234562345"
+    province: "广东省"
+    city: "广州市"
+    region: "海珠区"
+    detail_addr: "中源大道5599"
+    post_code: "123456"
+update:
+  BN_test_address_003:
+    receipt_name: "小红"
+    phone: "12234562345"
+    province: "上海市"
+    city: "上海市"
+    region: "黄浦区"
+    detail_addr: "中源大道5599"
+    post_code: "123456"
+    expect_toast: "保存成功"
